@@ -1,7 +1,7 @@
 /* This program is a demo for perspective projection using two  2D
 coloured objects (Sqaure, Triangle) */
 
-#include <iostream> // Anticipated to use C++ in future (not used in this program)
+
 #include <stdio.h> // for printf()
 #include <stdlib.h> // for exit()
 #include <memory.h> // for memset()
@@ -14,8 +14,7 @@ coloured objects (Sqaure, Triangle) */
 #include <GL/glx.h> // for bridging api
 #include <GL/glu.h> // for OpenGL utilities
 
-// namespaces
-using namespace std; // Anticipated to use C++ in future (not used in this program)
+
 
 // global variable declarations
 bool gbFullscreen = false;
@@ -136,7 +135,7 @@ int main(void){
 	}// END: while(bDone==false)
 
 	uninitialize();
-	return (0); // Program never reaches till this statement. Program exits from case 33.
+	return (0); 
 }
 
 void toggleFullscreen(void){
